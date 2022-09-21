@@ -11,13 +11,14 @@ body {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 58px;
   text-align: center;
   color: dimgray;
 }
 
 p {
-  font-size: 28px;
+  font-size: 23px;
+  text-align: left;
 }
 
 .aviso {
@@ -25,19 +26,22 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   width: 900px;
-  margin: 25px auto;
+  margin: 60px auto;
   padding: 35px 50px;
   text-align: center;
   box-shadow: 0 0 20px black;
 }
 
 .aviso ul {
-  font-size: 20px;
+  font-size: 23px;
+  text-align: left;
+  margin-bottom: 15px;
 }
 
 .aviso h4 {
   text-decoration: underline;
-  font-size: 20px;
+  font-size: 30px;
+  text-align: left;
 }
 
 .aviso input {
