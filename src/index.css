@@ -1,0 +1,56 @@
+/*
+  Imagen1: https://manzdev.github.io/eoi-fullstack/css/stewie.png
+  Imagen2: https://manzdev.github.io/eoi-fullstack/css/stewie-seal.png
+*/
+@import "reset.css";
+
+body {
+  font-family: "Indie Flower", Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url("https://images7.alphacoders.com/476/476227.jpg");
+  background-size: cover;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  color: dimgray;
+}
+
+p {
+  font-size: 28px;
+}
+
+.aviso {
+  background-image: url("https://img.freepik.com/fotos-premium/fondo-textura-papel-pergamino-antiguo-fondo-pantalla-vintage_118047-11536.jpg?w=2000");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 900px;
+  margin: 25px auto;
+  padding: 35px 50px;
+  text-align: center;
+  box-shadow: 0 0 20px black;
+}
+
+.aviso ul {
+  font-size: 20px;
+}
+
+.aviso h4 {
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+.aviso input {
+  border-radius: 40px;
+  width: 150px;
+  box-shadow: 5px 5px 15px gray;
+}
+
+.aviso img {
+  margin-top: 25px;
+  transition: 1s linear;
+}
+
+.aviso img:hover {
+  transform: scale(1.25);
+}
